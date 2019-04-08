@@ -6,7 +6,7 @@ class Accordion {
     this.handleClickSection = this.handleClickSection.bind(this);
   }
 
-  async init() {
+  init() {
     const accordionSections = this.accordionElement.querySelectorAll("dt");
     const accordionSectionsContent = this.accordionElement.querySelectorAll("dd");
 
