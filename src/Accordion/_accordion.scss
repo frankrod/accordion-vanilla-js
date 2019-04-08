@@ -1,0 +1,40 @@
+.Accordion {
+  border: 1px solid #5a5a5a;
+
+  &-section {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgb(117, 247, 160);
+    border-bottom: 1px solid #5a5a5a;
+    display: flex;
+
+    &::after {
+      display: inline-block;
+      content: '^';
+      transform: rotate(180deg);
+      margin-left: auto;
+    }
+  }
+
+  &-content {
+    &.is-expanded {
+      transition: linear 0.6s all;
+      animation: fade-in 1s;
+    }
+
+    &.is-hidden {
+      display: none;
+    }
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
