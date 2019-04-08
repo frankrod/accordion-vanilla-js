@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel ./public/index.html",
-    "build": "parcel build src",
+    "build": "parcel build ./public/index.html",
     "test": "jest"
   },
   "devDependencies": {
