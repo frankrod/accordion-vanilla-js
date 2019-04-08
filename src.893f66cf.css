@@ -1,0 +1,2 @@
+.Accordion{border:1px solid #5a5a5a}.Accordion-section{font-weight:700;cursor:pointer;padding:20px;background-color:#75f7a0;border-bottom:1px solid #5a5a5a;display:flex}.Accordion-section:after{display:inline-block;content:"^";transform:rotate(180deg);margin-left:auto}.Accordion-content.is-expanded{transition:all .6s linear;animation:fade-in 1s}.Accordion-content.is-hidden{display:none}@keyframes fade-in{0%{opacity:0}to{opacity:1}}
+/*# sourceMappingURL=/accordion-vanilla-js/src.893f66cf.css.map */
